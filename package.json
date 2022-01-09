@@ -1,0 +1,19 @@
+{
+  "name": "weekly-habit-calendar",
+  "version": "1.0.0",
+  "description": "Weekly Habit Calendar Demo Repository",
+  "main": "index.html",
+  "scripts": {
+    "git-push": "git add --all && git commit -m \"Updates\" && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paramdeo/weekly-habit-calendar.git"
+  },
+  "author": "Paramdeo Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paramdeo/weekly-habit-calendar/issues"
+  },
+  "homepage": "https://github.com/paramdeo/weekly-habit-calendar#readme"
+}

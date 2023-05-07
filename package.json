@@ -4,6 +4,7 @@
   "description": "Weekly Habit Calendar Demo Repository",
   "main": "index.html",
   "scripts": {
+    "minify": "minify src/index.html > dist/index.html",
     "git-push": "git add --all && git commit -m \"Updates\" && git push"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/paramdeo/weekly-habit-calendar/issues"
   },
-  "homepage": "https://github.com/paramdeo/weekly-habit-calendar#readme"
+  "homepage": "https://github.com/paramdeo/weekly-habit-calendar#readme",
+  "dependencies": {
+    "minify": "^9.2.0"
+  }
 }

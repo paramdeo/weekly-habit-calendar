@@ -118,18 +118,18 @@
     </div>
 
     <script>
-      const daysOfWeek = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
+      const daysOfWeek = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"]
 
-      const d = new Date();
-      let day = daysOfWeek[d.getDay()];
+      const d = new Date()
+      let day = daysOfWeek[d.getDay()]
       
-      let dayCard = document.getElementById(day);
-      dayCard.classList.add("border-danger","border-2");
+      let dayCard = document.getElementById(day)
+      dayCard.classList.add("border-danger","border-2")
 
-      let dayTitle = dayCard.previousElementSibling;
-      dayTitle.classList.add("fw-bold","text-danger");
+      let dayTitle = dayCard.previousElementSibling
+      dayTitle.classList.add("fw-bold","text-danger")
 
-      dayTitle.scrollIntoView();
+      setTimeout(() => dayTitle.scrollIntoView({ behavior: "smooth" }), 500)
     </script>
 
   </body>
